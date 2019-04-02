@@ -12,5 +12,5 @@ def repeat(word, times=2)
 end
 
 def start_of_word(word, loc)
-  word[loc - 1]
+  word[0...loc]
 end
