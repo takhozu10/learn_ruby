@@ -22,11 +22,11 @@ end
 def titleize(word)
   words = word.split.map do |w|
     if %w(the and over).include?(w)
-      word
+      w
     else
       w.capitalize
     end
   end
   words.first.capitalize!
-  words.join(" ")    
+  words.join(" ")
 end
