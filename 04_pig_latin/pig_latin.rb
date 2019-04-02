@@ -4,9 +4,15 @@ def translate(word)
   vowels.each do |l|
     if word[0] == l
       word += 'ay'
-    else
-      word = word[1..-1] + word[0] + 'ay'
+      return word
+      break
     end
   end
-  return word
+  vowels.each do |l|
+    if word[0] != l
+      word = word[1..-1] + word[0] + 'ay'
+      return word
+      break
+    end
+  end
 end
