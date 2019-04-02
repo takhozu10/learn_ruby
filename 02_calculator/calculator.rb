@@ -10,7 +10,7 @@ end
 def sum(numArray)
   numLen = numArray.length
   sum = 0
-  while numLen < 0
+  while numLen > 0
     numLen -= 1
     sum += numArray[numLen]
   end
