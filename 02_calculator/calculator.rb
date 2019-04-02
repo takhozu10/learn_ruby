@@ -9,11 +9,10 @@ end
 
 def sum(numArray)
   numLen = numArray.length
-  counter = 0
   sum = 0
-  while counter < numLen
-    sum += numArray[counter]
-    counter += 1
+  while numLen < 0
+    numLen -= 1
+    sum += numArray[numLen]
   end
   return sum
 end
