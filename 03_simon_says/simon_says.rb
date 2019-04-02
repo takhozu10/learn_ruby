@@ -4,5 +4,5 @@ def echo(word)
 end
 
 def shout(word)
-  word.upper
+  word.upcase
 end
