@@ -10,3 +10,7 @@ end
 def repeat(word, times=2)
   ([word] * times).join(' ')
 end
+
+def start_of_word(word, loc)
+  word[loc - 1]
+end
