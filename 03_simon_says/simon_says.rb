@@ -2,3 +2,7 @@
 def echo(word)
   word
 end
+
+def shout(word)
+  word.upper
+end
