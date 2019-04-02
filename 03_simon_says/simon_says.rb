@@ -8,5 +8,5 @@ def shout(word)
 end
 
 def repeat(word)
-  word * 2
+  word + " " + word
 end
