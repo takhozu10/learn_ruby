@@ -6,4 +6,5 @@ def translate(word)
       word += 'ay'
     end
   end
+  return word
 end
