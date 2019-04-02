@@ -4,4 +4,5 @@ def translate(word)
     return word[1..-1] + 'ay'
   else
     return word[1..-1] + word[0] + 'ay'
+  end
 end
