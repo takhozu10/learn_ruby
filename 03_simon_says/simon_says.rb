@@ -14,3 +14,7 @@ end
 def start_of_word(word, loc)
   word[0...loc]
 end
+
+def first_word(words)
+  words.split(' ')[0]
+end
