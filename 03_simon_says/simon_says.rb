@@ -6,3 +6,7 @@ end
 def shout(word)
   word.upcase
 end
+
+def repeat(word)
+  word * 2
+end
